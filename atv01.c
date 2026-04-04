@@ -8,6 +8,7 @@ int main(
     setlocale(LC_ALL, "");
     
     /* A impressão de de mensagem */
+    printf("\n**impressao de mensagem**\n\n");
     printf("Hello, World!\n");
     printf("I am learning C!\n");
     printf("And it is awesome!\n");

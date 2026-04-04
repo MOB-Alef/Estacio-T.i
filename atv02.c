@@ -28,14 +28,16 @@ int main()
     myNum = myOtherNum;
     
     /*impresao da Varialves*/
+    printf("\n**impressao das variaveis**\n\n");
     printf("My favorite number: %d \n", myNum);
     printf("My favorite float number: %f \n", myfloatNum);
     printf("My favorite Letter: %c \n", myLetter);
     printf("Digite um numero: %d \n", x);
 
     /*Impressão das variáveis Somar e Multiplica Numéricas*/
+    printf("\n**impressao da soma de variaveis**\n\n");
     printf("Soma: %d \n", sum);
-    printf("Soma: %d \n", a + b + c);
+    printf("Soma: %d \n\n", a + b + c);
 
     /* fim do programa */
     return 0;
