@@ -2,6 +2,10 @@
 
 int main()
 {
+    /*Nomes Das Variáveis C*/
+    int minutesPerHour = 60;/*Variável com nome completo*/
+    int m = 60;/*Variável com nome curto*/
+
     /*declaração de variável*/
     int myNum = 15;
     float myfloatNum = 5.99;
@@ -10,11 +14,10 @@ int main()
     /*Somar de variaveis*/
     int x = 5;
     int y = 6;
-    x = x + 1;
     int sum = x + y;
 
     /*Declaraar Múltiplas Variáveis*/
-    int x = 5 , y = 6, z = 50;
+    int a = 10 , b = 12, c = 50;
 
     /*Sengunda variavel (subtituicao)*/
     int myOtherNum = 10;
@@ -30,7 +33,7 @@ int main()
 
     /*Impressão das variáveis Somar e Multiplica Numéricas*/
     printf("Soma: %d \n", sum);
-    printf("Multiplica: %d \n", x + y + z);
+    printf("Soma: %d \n", a + b + c);
 
     /* fim do programa */
     return 0;
