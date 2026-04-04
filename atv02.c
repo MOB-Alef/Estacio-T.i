@@ -13,6 +13,8 @@ int main()
     x = x + 1;
     int sum = x + y;
 
+    /*Declaraar Múltiplas Variáveis*/
+    int x = 5 , y = 6, z = 50;
 
     /*Sengunda variavel (subtituicao)*/
     int myOtherNum = 10;
@@ -24,8 +26,11 @@ int main()
     printf("My favorite number: %d \n", myNum);
     printf("My favorite float number: %f \n", myfloatNum);
     printf("My favorite Letter: %c \n", myLetter);
-    printf("Soma: %d \n", sum);
     printf("Digite um numero: %d \n", x);
+
+    /*Impressão das variáveis Somar e Multiplica Numéricas*/
+    printf("Soma: %d \n", sum);
+    printf("Multiplica: %d \n", x + y + z);
 
     /* fim do programa */
     return 0;
