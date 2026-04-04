@@ -6,6 +6,12 @@ int main()
     int myNum = 15;
     float myfloatNum = 5.99;
     char myLetter = 'D';
+
+    /*Sengunda variavel (subtituicao)*/
+    int myOtherNum = 10;
+
+    /*Substituição do valor da variável*/
+    myNum = myOtherNum;
     
     /*impresao da Varialves*/
     printf("My favorite number: %d \n", myNum);
