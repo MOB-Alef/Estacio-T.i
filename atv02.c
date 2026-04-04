@@ -10,6 +10,7 @@ int main()
     /*Somar de variaveis*/
     int x = 5;
     int y = 6;
+    x = x + 1;
     int sum = x + y;
 
 
@@ -23,7 +24,8 @@ int main()
     printf("My favorite number: %d \n", myNum);
     printf("My favorite float number: %f \n", myfloatNum);
     printf("My favorite Letter: %c \n", myLetter);
-    printf("%d", sum);
+    printf("Soma: %d \n", sum);
+    printf("Digite um numero: %d \n", x);
 
     /* fim do programa */
     return 0;
