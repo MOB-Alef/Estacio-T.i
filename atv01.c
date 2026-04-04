@@ -1,9 +1,11 @@
 # include <stdio.h>
+#include <locale.h>
 int main(
 )
 {
     /*declaração de variável*/
     int myNum = 15;
+    setlocale(LC_ALL, "");
     
     /* A impressão de de mensagem */
     printf("Hello, World!\n");

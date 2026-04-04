@@ -1,10 +1,12 @@
 #include <stdio.h>
+#include <locale.h>
 
 int main()
 {
+    setlocale(LC_ALL, "");
     /*Nomes Das Variáveis C*/
-    int minutesPerHour = 60;/*Variável com nome completo*/
-    int m = 60;/*Variável com nome curto*/
+    int minutesPerHour = 60;/*Variável com*/
+    int m = 60;
 
     /*declaração de variável*/
     int myNum = 15;
