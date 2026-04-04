@@ -7,6 +7,12 @@ int main()
     float myfloatNum = 5.99;
     char myLetter = 'D';
 
+    /*Somar de variaveis*/
+    int x = 5;
+    int y = 6;
+    int sum = x + y;
+
+
     /*Sengunda variavel (subtituicao)*/
     int myOtherNum = 10;
 
@@ -17,6 +23,7 @@ int main()
     printf("My favorite number: %d \n", myNum);
     printf("My favorite float number: %f \n", myfloatNum);
     printf("My favorite Letter: %c \n", myLetter);
+    printf("%d", sum);
 
     /* fim do programa */
     return 0;
