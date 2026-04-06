@@ -6,6 +6,12 @@ int main()
 /*Tipos de Dados em C*/
 setlocale(LC_ALL, "");
 
+/*Tamanho da memória*/
+int myInt;/*4 bytes*/
+float myFloat;/*4 bytes*/
+double myDouble;/*8 bytes*/
+char myChar;/*1 byte*/
+
 char myGrande = 'A';/*Caractere*/
 char a = 65, b = 66, c=67;
 char myText[] = "Hello World";
@@ -55,16 +61,23 @@ printf("Numero Cientifico Double: %f \n\n", d1);
 /*Impressao da Presisao*/
 
 printf("**impressao da precisao**\n\n");
-printf("%f\n", myFloatNum); /*Default will show 6 digits after the decimal point*/
-printf("%.1f\n", myFloatNum);/*only show 1 digit*/
-printf("%.2f\n", myFloatNum);/*only show 2 digits*/
-printf("%.3f\n\n", myFloatNum);/*only show 4 digits*/ 
+printf("Numero com precisao padrao: %f\n", myFloatNum); /*Default will show 6 digits after the decimal point*/
+printf("Numero com 1 digito: %.1f\n", myFloatNum);/*only show 1 digit*/
+printf("Numero com 2 digitos: %.2f\n", myFloatNum);/*only show 2 digits*/
+printf("Numero com 3 digitos: %.3f\n\n", myFloatNum);/*only show 4 digits*/ 
 
 
 /*impressão da string*/
 
 printf("**impressao da string**\n\n");
 printf("String: %s \n\n" , myText);
+
+/*Tamanho da memória*/
+printf("**tamanho da memoria**\n\n");
+printf("tamanho de myInt: %zu bytes\n", sizeof(myInt));/*4 bytes*/
+printf("tamanho de myFloat: %zu bytes\n", sizeof(myFloat));/*4 bytes*/
+printf("tamanho de myDouble: %zu bytes\n", sizeof(myDouble));/*8 bytes*/
+printf("tamanho de myChar: %zu bytes\n", sizeof(myChar));/*1 byte*/
 
     /* fim do programa */
     return 0;
