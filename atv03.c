@@ -32,6 +32,12 @@ double myNum3 = 19.99;
 float f1 = 35e3; /* 25 * 10^3 = 35000 */
 double d1 = 12E4; /* 12 * 10^4 = 120000 */
 
+/*Exemplo da Vida Real*/
+int items = 50;
+float cost_per_item = 9.99;
+float total_cost = items * cost_per_item;
+char currency = '$';
+
 /*impressão dos valores*/
 
 printf("\n**impressao dos valores**\n\n");
@@ -78,6 +84,12 @@ printf("tamanho de myInt: %zu bytes\n", sizeof(myInt));/*4 bytes*/
 printf("tamanho de myFloat: %zu bytes\n", sizeof(myFloat));/*4 bytes*/
 printf("tamanho de myDouble: %zu bytes\n", sizeof(myDouble));/*8 bytes*/
 printf("tamanho de myChar: %zu bytes\n", sizeof(myChar));/*1 byte*/
+
+/*Exemplo da Vida Real*/
+printf("**exemplo da vida real**\n\n");
+printf("Numero de itens: %d\n", items);
+printf("custo por item: %.2f\n", cost_per_item, currency);
+printf("Valor Total: %.2f %c\n\n", total_cost, currency);
 
     /* fim do programa */
     return 0;
