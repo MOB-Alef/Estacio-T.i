@@ -113,6 +113,17 @@ printf("VeryBig: %lld\n", verybig);
 printf("Huge: %llu\n", huge);
 printf("Precise: %.30lf\n\n", precise);
 
+/*Verificação o Tamanho*/
+printf("**Verificação do Tamanho**\n\n");
+printf("Size of int: %zu bytes\n", sizeof(int));
+printf("Size of double: %zu bytes\n", sizeof(double));
+printf("Size of short int: %zu bytes\n", sizeof(short int));
+printf("Size of unsigned int: %zu bytes\n", sizeof(unsigned int));
+printf("Size of long int: %zu bytes\n", sizeof(long int));
+printf("Size of long long int: %zu bytes\n", sizeof(long long int));
+printf("Size of unsigned long long int: %zu bytes\n", sizeof(unsigned long long int));
+printf("Size of long double: %zu bytes\n\n", sizeof(long double));
+
 
     /* fim do programa */
     return 0;
