@@ -10,6 +10,11 @@ char myGrande = 'A';/*Caractere*/
 char a = 65, b = 66, c=67;
 char myText[] = "Hello World";
 
+/*Precisão do Decimal */
+
+float myFloatNum = 3.5 ;
+
+
 /*Tipo de dados Numéricos*/
 
 int myNum = 100;
@@ -46,6 +51,15 @@ printf("Numero Double: %f \n\n",myNum3);
 printf("**impressao dos numeros cientificos**\n\n");
 printf("Numero Cientifico Float: %f \n", f1);
 printf("Numero Cientifico Double: %f \n\n", d1);
+
+/*Impressao da Presisao*/
+
+printf("**impressao da precisao**\n\n");
+printf("%f\n", myFloatNum); /*Default will show 6 digits after the decimal point*/
+printf("%.1f\n", myFloatNum);/*only show 1 digit*/
+printf("%.2f\n", myFloatNum);/*only show 2 digits*/
+printf("%.3f\n\n", myFloatNum);/*only show 4 digits*/ 
+
 
 /*impressão da string*/
 
