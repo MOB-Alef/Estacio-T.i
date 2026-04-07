@@ -21,12 +21,28 @@ int main(){
 
     /*Conversao Explicita*/
     float sum2 = (float) 5 / 2 ;
+    int num1 = 2;
+    int num2 = 5;
+    float sum3 = (float) (num1 + num2) / 2;
+    
+    /*Exemplo da Vida Real*/
+    int maxScore= 500;
+    int userScore= 423;
+    float percentage = (float) userScore / maxScore * 100;
 
     /*Impressao de Valores*/
     printf("Impressao da Divisao Inteira: %d\n", sum);/*Divisão Inteira  2 */
     printf("Impressao da Divisao com Conversao Implicita: %f\n", myFloat);/*Conversão Implicita 9.000000*/
     printf("Impressao da Conversao Implicita para Inteiro: %d\n", myInt);/*Conversão Implicita para Inteiro 9 */
     printf("Impressao da Divisao com Conversao Implicita: %f\n", sum);/*Divisão com Conversão Implicita 2.000000*/
+
+    /**/
+    printf("Impressao da Divisao com Conversao Explicita: %f\n", sum2);/*Divisão com Conversão Explicita 2.500000*/
+    printf("Impressao da Divisao com Conversao Explicita: %f\n", sum3);/*Divisão com Conversão Explicita 3.500000*/
+
+    /*Exemplo da Vida Real*/
+    printf("Usuario Pontuacao: %d\n", userScore);
+
 
     /*Fim do Programa*/
     return 0;
