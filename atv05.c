@@ -3,13 +3,20 @@
 #include <locale.h>
 
 int main(){
-/*Conversão do Tipo C*/
-int myInt = 9.99;/*Output 9*/;
-float sum = 5 / 2;/*Output 2.000000*/;
+/*Constantes C*/
+/*exemplo notas ]sobre Constantes*/
+const int myNum = 15;
+
+/*exepmlo de erros*/
+/*myNum = 10;*/ /*Isso causaria um erro de compilação, pois myNum é uma constante e não pode ser alterada*/
+/*minutesPerHour = 70;*/ /*Isso causaria um erro de compilação, pois minutesPerHour é uma constante e não pode ser alterada*/
+
+/*Constantes*/
+const int minutesPerHour = 60;
+const int monthsInYear = 12;
+const int BIRTHYEAR = 1980;
 
 /*impressão de Valores*/
-printf("\nConversao do Tipo C - Valor: \n\n");/* Output 9*/
-printf("Conversao  :%d\n", myInt);/* Output 9*/
-printf("Soma  :%f\n\n", sum);/* Output 2.000000*/
+
 
 }
