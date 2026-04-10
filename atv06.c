@@ -13,7 +13,16 @@ int main(){
     int x = 10;
     int y = 3;
 
+    /*Incremento e Decremento*/
+    int paopleInRoom = 10;
 
+    /* 3 pessoas na sala */
+    /*paopleInRoom++
+    paopleInRoom++
+    paopleInRoom++*/
+    paopleInRoom = paopleInRoom + 3; /*Output 13*/
+
+    
     /*Operadores de Atribuição*/
     
     printf("\n-----Impressao Operadores de  Valores-----\n\n");
@@ -23,16 +32,21 @@ int main(){
     printf("Valor da Divisao: %d\n", x / y); // Output: 3
     printf("Valor do Resto: %d\n\n", x % y); // Output: 1
     
-
-
-        /*Extra*/
-        int z = 5;
-        z++; /*Incremento: z agora é 6*/
-        int a = 10;
-        int b = 3;
-
-        double c = 10.0; /* Double division, result is a double */
-        double d = 3.0; /* Double division, result is a double */
+    
+    
+    /*Extra*/
+    int z = 5;
+    z++; /*Incremento: z agora é 6*/
+    int a = 10;
+    int b = 3;
+    
+    double c = 10.0; /* Double division, result is a double */
+    double d = 3.0; /* Double division, result is a double */
+    
+    /*Incremento e Decremento*/    
+    /*int x = 10;*/
+    ++x;
+    --x;
 
     
     /*Extra*/
@@ -44,5 +58,10 @@ int main(){
     printf("-----Exemplo extra a / b e c / d -----\n\n");
     printf("Valor de a / b: %d\n", a / b); // Output: 3
     printf("Valor de c / d: %f\n\n", c / d); // Output: 3.333333
+
+    /*Incremento e Decremento*/
+    printf("-----Exemplo Incremento e Decremento-----\n\n");
+    printf("Valor de x: %d\n", x); // Output: 5
+    printf("Valor de y: %d\n\n", y); // Output: 3
 
 }
