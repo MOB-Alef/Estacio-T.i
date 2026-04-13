@@ -34,9 +34,8 @@ int main(){
     int t = 10;
     t += 5;
 
-    /*Operadores lógicos*/
-
-
+    
+    
     /*Exemplo da Vida Real Acompanhando Poupança */
     int savings = 100;
     savings += 50; /* add 50 to savings */ 
@@ -44,7 +43,11 @@ int main(){
     /*Exemplo da Vida Real Comparaçãp */
     int age = 18;
     int passwordLength = 5;
-
+    
+        /*Operadores lógicos*/
+    /*Exemplo da Vida Real: Verificação de login*/
+    int isLoggedIn = 1;
+    int isAdmin = 0;
 
     
     /*Operadores de Atribuição*/
@@ -77,6 +80,10 @@ int main(){
     printf("Password Length >= 8: %d\n", passwordLength >=8); // Output: 0 (false)
     printf("Password Length < 8: %d\n\n", passwordLength < 8); // Output: 1 (true)
 
+    /*Exemplo da Vida Real: Verificação de login*/
+    printf("-----Exemplo da Vida Real: Verificação de login-----\n\n");
+    printf("isLoggedIn: %d\n", isLoggedIn); // Output: 1 (true)
+    printf("isAdmin: %d\n", isAdmin); // Output: 0 (false)
 
     /*Extra*/
     int z = 5;
@@ -134,5 +141,17 @@ Operator        name                         Exemple                       Descr
 <              Less than                    (x < y)                     Returns true if x is less than y
 >=             Greater than or equal to     (x >= y)        Returns true if x is greater than or equal to y
 <=             Less than or equal to        (x <= y)           Returns true if x is less than or equal to y
+
+*/
+
+/*Operadores Logicos*/
+/*
+Operator        Name            Example                     Description
+&&              Logical AND     (x < 5 && x < 10)           Returns true if both statements are true
+||              Logical OR      (x < 5 || x < 4)            Returns true if one of the statements is true
+!               Logical NOT     !(x < 5 && x < 10)          Reverse the result, returns false if the result is true and vice versa
+
+
+
 
 */
