@@ -34,6 +34,8 @@ int main(){
     int t = 10;
     t += 5;
 
+    /*Operadores lógicos*/
+
 
     /*Exemplo da Vida Real Acompanhando Poupança */
     int savings = 100;
@@ -125,12 +127,12 @@ int main(){
 */
 
 /*
-Operator       name       Exemple       Description
-==             Equal to    (x == y)      Returns true if x is equal to y
-!=             Not equal    (x != y)      Returns true if x is not equal to y
->              Greater than (x > y)       Returns true if x is greater than y
-<              Less than    (x < y)       Returns true if x is less than y
->=             Greater than or equal to (x >= y) Returns true if x is greater than or equal to y
-<=             Less than or equal to (x <= y) Returns true if x is less than or equal to y
+Operator       name                         Exemple                       Description
+==             Equal to                     (x == y)                     Returns true if x is equal to y
+!=             Not equal                    (x != y)                    Returns true if x is not equal to y
+>              Greater than                 (x > y)                     Returns true if x is greater than y
+<              Less than                    (x < y)                     Returns true if x is less than y
+>=             Greater than or equal to     (x >= y)        Returns true if x is greater than or equal to y
+<=             Less than or equal to        (x <= y)           Returns true if x is less than or equal to y
 
 */
