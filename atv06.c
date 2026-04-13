@@ -81,9 +81,9 @@ int main(){
     printf("Password Length < 8: %d\n\n", passwordLength < 8); // Output: 1 (true)
 
     /*Exemplo da Vida Real: Verificação de login*/
-    printf("-----Exemplo da Vida Real: Verificação de login-----\n\n");
+    printf("-----Exemplo da Vida Real: Verificacao de login-----\n\n");
     printf("isLoggedIn: %d\n", isLoggedIn); // Output: 1 (true)
-    printf("isAdmin: %d\n", isAdmin); // Output: 0 (false)
+    printf("isAdmin: %d\n\n", isAdmin); // Output: 0 (false)
 
     /*Extra*/
     int z = 5;
