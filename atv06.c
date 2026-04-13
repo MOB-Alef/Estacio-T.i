@@ -35,7 +35,6 @@ int main(){
     t += 5;
 
     
-    
     /*Exemplo da Vida Real Acompanhando Poupança */
     int savings = 100;
     savings += 50; /* add 50 to savings */ 
@@ -44,11 +43,15 @@ int main(){
     int age = 18;
     int passwordLength = 5;
     
-        /*Operadores lógicos*/
+    /*Operadores lógicos*/
     /*Exemplo da Vida Real: Verificação de login*/
     int isLoggedIn = 1;
     int isAdmin = 0;
-
+    
+    /* Procedência de Operadores C */
+    int result1 = 2 + 3 * 4; /* Output: 14 (multiplication is performed before addition) */
+    int result2 = (2 + 3) * 4; /* Output: 20 (parentheses change the order of operations) */
+    
     
     /*Operadores de Atribuição*/
     
@@ -84,6 +87,11 @@ int main(){
     printf("-----Exemplo da Vida Real: Verificacao de login-----\n\n");
     printf("isLoggedIn: %d\n", isLoggedIn); // Output: 1 (true)
     printf("isAdmin: %d\n\n", isAdmin); // Output: 0 (false)
+
+    /*Procedência de Operadores*/
+    printf("-----Procedencia de Operadores-----\n\n");
+    printf("Valor de result1: %d\n", result1); // Output: 14
+    printf("Valor de result2: %d\n\n", result2); // Output: 20
 
     /*Extra*/
     int z = 5;
@@ -151,7 +159,14 @@ Operator        Name            Example                     Description
 ||              Logical OR      (x < 5 || x < 4)            Returns true if one of the statements is true
 !               Logical NOT     !(x < 5 && x < 10)          Reverse the result, returns false if the result is true and vice versa
 
-
-
-
+/* Ordem de Operações */
+/*
+()              Parentheses
+++ --          Increment and Decrement
+* / %          Multiplication, Division, and Modulus
++ -            Addition and Subtraction
+==             igualdade
+&&             Logical AND
+||             Logical OR
+=              Assignment
 */
