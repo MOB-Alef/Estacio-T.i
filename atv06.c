@@ -127,7 +127,7 @@ int main(){
 */
 
 /*
-Operator       name                         Exemple                       Description
+Operator        name                         Exemple                       Description
 ==             Equal to                     (x == y)                     Returns true if x is equal to y
 !=             Not equal                    (x != y)                    Returns true if x is not equal to y
 >              Greater than                 (x > y)                     Returns true if x is greater than y
