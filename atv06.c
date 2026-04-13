@@ -22,6 +22,28 @@ int main(){
     paopleInRoom++*/
     paopleInRoom = paopleInRoom + 3; /*Output 13*/
 
+    /* Operadores C : Comparação */
+
+    int a = 5;
+    int b = 10;
+
+
+    /*Operadores de Designação C*/
+
+    /*Operadores de Atribuição C*/
+    int t = 10;
+    t += 5;
+
+
+    /*Exemplo da Vida Real Acompanhando Poupança */
+    int savings = 100;
+    savings += 50; /* add 50 to savings */ 
+    
+    /*Exemplo da Vida Real Comparaçãp */
+    int age = 18;
+    int passwordLength = 5;
+
+
     
     /*Operadores de Atribuição*/
     
@@ -32,13 +54,33 @@ int main(){
     printf("Valor da Divisao: %d\n", x / y); // Output: 3
     printf("Valor do Resto: %d\n\n", x % y); // Output: 1
     
-    
-    
+    /*Exemplo de Comparação*/
+    printf("\n-----Impressao de Comparacao-----\n\n");
+    printf("Valor de a > b: %d\n", a > b);/* Output: 0 (false) */
+    printf("Valor de a < b: %d\n", a < b);/* Output: 1 (true) */
+    printf("Valor de a == b: %d\n", a == b);/* Output: 0 (false) */
+    printf("Valor de a != b: %d\n", a != b);/* Output: 1 (true) */
+
+
+
+    /*Exemplo da Vida Real*/
+    printf("\n-----Exemplo da Vida Real-----\n\n");
+    printf("Valor total de savings: %d\n\n", savings); // Output: 150
+
+
+    /*Exemplo da Vida Real Comparação*/
+    printf("-----Exemplo da Vida Real Comparacao-----\n\n");
+    printf("Idade >= 18: %d\n", age >= 18); // Output: 1 (true)
+    printf("Idade < 18: %d\n", age < 18); // Output: 0 (false)
+    printf("Password Length >= 8: %d\n", passwordLength >=8); // Output: 0 (false)
+    printf("Password Length < 8: %d\n\n", passwordLength < 8); // Output: 1 (true)
+
+
     /*Extra*/
     int z = 5;
     z++; /*Incremento: z agora é 6*/
-    int a = 10;
-    int b = 3;
+    int g = 10;
+    int h = 3;
     
     double c = 10.0; /* Double division, result is a double */
     double d = 3.0; /* Double division, result is a double */
@@ -55,8 +97,8 @@ int main(){
     z--; /*Decremento: z agora é 5 novamente*/
     printf("Valor de z apos incremento: %d\n\n", z); // Output: 6
     
-    printf("-----Exemplo extra a / b e c / d -----\n\n");
-    printf("Valor de a / b: %d\n", a / b); // Output: 3
+    printf("-----Exemplo extra g / h e c / d -----\n\n");
+    printf("Valor de g / h: %d\n", g / h); // Output: 3
     printf("Valor de c / d: %f\n\n", c / d); // Output: 3.333333
 
     /*Incremento e Decremento*/
@@ -65,3 +107,30 @@ int main(){
     printf("Valor de y: %d\n\n", y); // Output: 3
 
 }
+
+/*operator       exemple     Same As     
+=              x = 5         x = 5
++=             x += 3        x = x + 3
+-=             x -= 3        x = x - 3
+*=             x *= 3        x = x * 3
+/=             x /= 3        x = x / 3
+%=             x %= 3        x = x % 3
+&=             x &= 3        x = x & 3
+|=             x |= 3        x = x | 3
+^=             x ^= 3        x = x ^ 3
+>>=            x >>= 3       x = x >> 3
+<<=            x <<= 3       x = x << 3
+
+
+*/
+
+/*
+Operator       name       Exemple       Description
+==             Equal to    (x == y)      Returns true if x is equal to y
+!=             Not equal    (x != y)      Returns true if x is not equal to y
+>              Greater than (x > y)       Returns true if x is greater than y
+<              Less than    (x < y)       Returns true if x is less than y
+>=             Greater than or equal to (x >= y) Returns true if x is greater than or equal to y
+<=             Less than or equal to (x <= y) Returns true if x is less than or equal to y
+
+*/
