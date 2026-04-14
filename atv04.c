@@ -36,7 +36,7 @@ int main(){
     printf("Impressao da Conversao Implicita para Inteiro: %d\n", myInt);/*Conversão Implicita para Inteiro 9 */
     printf("Impressao da Divisao com Conversao Implicita: %f\n", sum);/*Divisão com Conversão Implicita 2.000000*/
 
-    /**/
+    /*Divisao com Conversao Explicita*/
     printf("Impressao da Divisao com Conversao Explicita: %f\n", sum2);/*Divisão com Conversão Explicita 2.500000*/
     printf("Impressao da Divisao com Conversao Explicita: %f\n", sum3);/*Divisão com Conversão Explicita 3.500000*/
 

@@ -27,14 +27,10 @@ int main(){
     int a = 5;
     int b = 10;
 
-
-    /*Operadores de Designação C*/
-
     /*Operadores de Atribuição C*/
     int t = 10;
     t += 5;
 
-    
     /*Exemplo da Vida Real Acompanhando Poupança */
     int savings = 100;
     savings += 50; /* add 50 to savings */ 
@@ -51,7 +47,7 @@ int main(){
     /* Procedência de Operadores C */
     int result1 = 2 + 3 * 4; /* Output: 14 (multiplication is performed before addition) */
     int result2 = (2 + 3) * 4; /* Output: 20 (parentheses change the order of operations) */
-    
+
     
     /*Operadores de Atribuição*/
     
@@ -68,8 +64,6 @@ int main(){
     printf("Valor de a < b: %d\n", a < b);/* Output: 1 (true) */
     printf("Valor de a == b: %d\n", a == b);/* Output: 0 (false) */
     printf("Valor de a != b: %d\n", a != b);/* Output: 1 (true) */
-
-
 
     /*Exemplo da Vida Real*/
     printf("\n-----Exemplo da Vida Real-----\n\n");
@@ -106,7 +100,6 @@ int main(){
     /*int x = 10;*/
     ++x;
     --x;
-
     
     /*Extra*/
     printf("-----Exemplo extra-----\n\n");

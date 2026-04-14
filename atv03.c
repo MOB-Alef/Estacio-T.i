@@ -23,7 +23,6 @@ char myText[] = "Hello World";
 
 float myFloatNum = 3.5 ;
 
-
 /*Tipo de dados Numéricos*/
 
 int myNum = 100;
@@ -86,7 +85,6 @@ printf("Numero com 1 digito: %.1f\n", myFloatNum);/*only show 1 digit*/
 printf("Numero com 2 digitos: %.2f\n", myFloatNum);/*only show 2 digits*/
 printf("Numero com 3 digitos: %.3f\n\n", myFloatNum);/*only show 4 digits*/ 
 
-
 /*Impressão da String*/
 
 printf("**Impressao Da String**\n\n");
@@ -126,7 +124,6 @@ printf("Size of long int: %zu bytes\n", sizeof(long int));
 printf("Size of long long int: %zu bytes\n", sizeof(long long int));
 printf("Size of unsigned long long int: %zu bytes\n", sizeof(unsigned long long int));
 printf("Size of long double: %zu bytes\n\n", sizeof(long double));
-
 
     /* fim do programa */
     return 0;
