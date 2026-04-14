@@ -46,6 +46,11 @@ int main(){
     /*Exemplo da Vida Real*/
     printf("\n------Exemplo da Vida Real:------\n");
     printf("myAge: %d\n", myAge >= votingAge);
+    if( myAge >= votingAge ){
+        printf("Voce tem idade suficiente para votar.\n");
+    } else {
+        printf("Voce nao tem idade suficiente para votar.\n");
+    }
 
 
 
