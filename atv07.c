@@ -11,6 +11,11 @@ int main(){
     /*Exemplo*/
     int x = 10;
     int y = 9;
+
+    /*Exemplo Booleano C 
+    Exemplo Da Vida Real:*/
+   int myAge = 25;
+   int votingAge = 18;
     
     /*Amazenado Resultado de Comparacoes*/
     bool isGreanter = x > y;
@@ -37,6 +42,12 @@ int main(){
     /*Armazenando Resultado de Comparacoes*/
     printf("\n------Armazenando Resultado de Comparacoes:------\n");
     printf("isGreanter: %d\n", isGreanter);
+
+    /*Exemplo da Vida Real*/
+    printf("\n------Exemplo da Vida Real:------\n");
+    printf("myAge: %d\n", myAge >= votingAge);
+
+
 
     return 0;
 
