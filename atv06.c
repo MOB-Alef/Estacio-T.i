@@ -1,4 +1,8 @@
 #include<stdio.h>
+#include<stdbool.h>
+
+/*{gcc atv06.c -o atv06} <-Comado para Compilar e salva as ultima Alteração */
+/*{ .\atv06 } Comando para executar o programa */
 
 int main(){
     /*Operadores C*/

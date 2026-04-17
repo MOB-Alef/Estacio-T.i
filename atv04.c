@@ -5,6 +5,9 @@
 #include <locale.h>
 #include <sys/stat.h>
 
+/*{gcc atv04.c -o atv04} <-Comado para Compilar e salva as ultima Alteração */
+/*{ .\atv04 } Comando para executar o programa */
+
 /*Inicio do Programa*/
 int main(){
     setlocale(LC_ALL, "");/*Da suporte a caracteres especiais*/

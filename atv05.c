@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <locale.h>
 
+/*{gcc atv05.c -o atv05} <-Comado para Compilar e salva as ultima Alteração */
+/*{ .\atv05 } Comando para executar o programa */
+
 int main(){
 /*Constantes C*/
 /*exemplo notas ]sobre Constantes*/

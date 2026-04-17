@@ -3,6 +3,8 @@
 #include <locale.h>
 #include <sys/stat.h>
 
+/*{gcc atv03.c -o atv03} <-Comado para Compilar e salva as ultima Alteração */
+/*{ .\atv03 } Comando para executar o programa */
 
 int main()
 {

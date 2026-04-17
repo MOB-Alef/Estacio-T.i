@@ -1,5 +1,7 @@
 # include <stdio.h>
 #include <locale.h>
+/*{gcc atv01.c -o atv01} <-Comado para Compilar e salva as ultima Alteração */
+/*{ .\atv01 } Comando para executar o programa */
 int main(
 )
 {

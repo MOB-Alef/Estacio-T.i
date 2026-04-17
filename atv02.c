@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <locale.h>
 
+/*{gcc atv02.c -o atv02} <-Comado para Compilar e salva as ultima Alteração */
+/*{ .\atv02 } Comando para executar o programa */
 int main()
 {
     setlocale(LC_ALL, "");

@@ -1,6 +1,9 @@
 #include<stdio.h>
 #include<stdbool.h>
 
+/*{gcc atv07.c -o atv07} <-Comado para Compilar e salva as ultima Alteração */
+/*{ .\atv07 } Comando para executar o programa */
+
 int main(){
     /* C Booleans variavies */
     bool isFishTasty = false;
