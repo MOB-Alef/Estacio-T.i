@@ -3,8 +3,8 @@
 
 int main(){
     /* C Booleans variavies */
-    bool isProgrammingFun = true;
     bool isFishTasty = false;
+    bool isProgrammingFun = true;
     bool isHamburgerTasty = true;
     bool isPizzaTasty = true;
     
@@ -58,3 +58,13 @@ int main(){
 
 
 }
+
+/*
+Condições e Instrucções If em C 
+a < b 
+a <= b
+a > b
+a >= b
+a == b
+a != b
+*/
