@@ -16,6 +16,11 @@ int time = 16;
 /*if bool*/
 bool isGreater = x > y;
 
+/*Uso de Variáveis booleanas*/
+bool isMorning = time < 12;
+bool isDay = time < 18;
+
+
     /*Condições e Instruções If em C */
    /*
    Operadores de Comparação */
@@ -37,10 +42,15 @@ if (time < 12)
     printf("Boa Tarde.");
 } else {
     printf("Boa Noite");
-
 }
-
-
+/*Uso de Variáveis booleanas*/
+if(isMorning){
+    printf("Bom Dia!");
+} else if (isDay){
+    printf("Boa Tarde.");
+} else{
+    printf("Boa Noite.");
+}
 
 
 }
