@@ -30,13 +30,18 @@ bool isGreater = x > y;
         printf("20 e maior que 18\n");
     }
 /*if Else exemplo */
-if (time < 20)
+if (time < 12)
 {
-    printf("Bom dia.");
-} else{
+    printf("Bom Dia.");
+} else if (time < 18) {
     printf("Boa Tarde.");
+} else {
+    printf("Boa Noite");
+
 }
 
 
 
-}/*hello hello hello hello hiiii!!!! :]*/
+
+}
+/*hello hello hello hello hiiii!!!! :]*/
