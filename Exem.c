@@ -1,7 +1,8 @@
 # include <stdio.h>
 #include <locale.h>
-/*{gcc Exem.c -o Exem} <-Comado para Compilar e salva as ultima Alteração */
-/*{ .\Exem } Comando para executar o programa */
+/*Aluno:ALef Viana barroso
+Matricula:202601516761
+*/
 int main(
 )
 {
@@ -26,3 +27,5 @@ int main(
     return 0;
 
 }
+/*{gcc Exem.c -o Exem} <-Comado para Compilar e salva as ultima Alteração */
+/*{ .\Exem } Comando para executar o programa */
