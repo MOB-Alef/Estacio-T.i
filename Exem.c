@@ -15,13 +15,13 @@ int main(
     if (num > 0 )
     {
         printf("\n----Empresao do Positivo----\n");
-        printf("%d E postivo\n\n", num);
+        printf("%d < postivo\n\n", num);
     } else if (num < 0 ){
         printf("\n----Empresao do Negativo----\n");
-        printf("%d E negativo\n\n", num);
+        printf("%d < negativo\n\n", num);
     }else {
         printf("\n----Empresao do Nulo----\n");
-        printf("%d E nulo\n\n");
+        printf("%d < nulo\n\n");
     }
     return 0;
 
