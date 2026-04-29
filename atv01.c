@@ -22,3 +22,8 @@ int main(
 }
     /*Teste de atividade 01 - hello world
     comit de primeiro projeto em liguagem C */
+    /*
+    git add .
+git commit -m "mensagem"
+git push
+    */
